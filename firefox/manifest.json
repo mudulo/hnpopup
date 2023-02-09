@@ -1,0 +1,33 @@
+{
+    "name": "HN Pop-up",
+    "version": "1.0",
+    "description": "Hover on a Hacker News Username to see their Profile",
+    "manifest_version": 2,
+
+    "permissions": [
+      "http://news.ycombinator.com/*",
+      "https://news.ycombinator.com/*",
+      "https://hacker-news.firebaseio.com/*"
+    ],
+    
+    "content_scripts": [
+      {
+        "matches": [
+          "http://news.ycombinator.com/*",
+          "https://news.ycombinator.com/*"
+        ],
+        "css": [ "jTippy/jTippy.css"],
+        "js": [ "js/jquery.js",
+        "jTippy/jTippy.js", "js/main.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      "img/*"
+    ],
+    
+  "icons": {
+     "16": "img/icon16.png",
+     "48": "img/icon48.png",
+     "128": "img/icon128.png"
+  }
+}
