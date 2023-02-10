@@ -1,4 +1,4 @@
-# HN Pop-Up - Profile Overlay for HN
+# HN Pop-Up: Profile Overlay for HN
 
 **Available for Chrome and Firefox.**
 
