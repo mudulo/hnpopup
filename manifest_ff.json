@@ -1,6 +1,6 @@
 {
     "name": "HN Pop-up",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Hover on a Hacker News Username to see their Profile",
     "manifest_version": 2,
 
