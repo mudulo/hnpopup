@@ -1,0 +1,27 @@
+{
+  "name": "Hacker News User Link Pop-up",
+  "version": "1.0",
+  "description": "Hover on a Hacker News user link to see their profile",
+  "manifest_version": 3,
+  "permissions": [
+    "https://news.ycombinator.com/*",
+    "https://hacker-news.firebaseio.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://news.ycombinator.com/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "64": "64.png",
+    "128": "128.png",
+    "256": "256.png"
+  }
+}
