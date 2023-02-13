@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Hover on a Hacker News user link to see their profile",
   "manifest_version": 3,
-  "permissions": [
+  "host_permissions": [
     "https://news.ycombinator.com/*",
     "https://hacker-news.firebaseio.com/*"
   ],
@@ -18,10 +18,10 @@
     }
   ],
   "icons": {
-    "16": "16.png",
-    "48": "48.png",
-    "64": "64.png",
-    "128": "128.png",
-    "256": "256.png"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png",
+    "256": "icon256.png"
   }
 }

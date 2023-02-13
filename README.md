@@ -7,19 +7,7 @@ leaving the page you're on.
 
 You can quickly see a user's about, karma and sign up date.
 
-## Inspiration
-
-This repository is a fork of the upstream at https://github.com/mudulo/hnpopup.
-All credit goes to *mudulo* for coming up with the idea and executing on it.
-
-My fork uses a simpler mechanism to display the title and simplifes the code as
-well in addition to adapting it to my preferred style of coding.
-
 ## Installation
-
-This fork doesn't publish browser extension store packages yet.
-See the upstream https://github.com/mudulo/hnpopup for Chrome and Firefox or
-use the offline install method:
 
 ### Firefox
 
@@ -64,24 +52,6 @@ It does not access your Hacker News cookies or other personal data in any way.
 Feel free to open issues or submit PRs.
 
 ## To-Do
-
-### Sync with the upstream maintainer and see if they are interested in merging
-
-I have forked the extension and rewrote it heavily to suit my coding style and
-preferences.
-
-I will reach out the the upstream maintainer, thank them for their idea and ask
-them whether they'd be interested in merging.
-If so, we'll merge the fork into the upstream.
-
-### Package for the Chrome Extension Store and the Mozilla Add-On Store
-
-In case the upstream maintainer is not interested in merging, I might decide to
-submit my fork as an alternative extension, in which case I will need to bundle
-it and submit it to the two stores.
-
-The same source code and manifest will work for both stores as the extension is
-written in and uses the Web Extension format and APIs.
 
 ### Test the extension in Safari and submit to Apple's extension store
 
