@@ -11,7 +11,10 @@ You can quickly see a user's about, karma and sign up date.
 
 ### Firefox
 
+For some reason, Firefox does not whitelist the domain `https://hacker-news.firebaseio.com/` under the `host_permissions` key in the manifest, when we use manifest v3. For that reason, we use the manifest v2 for FireFox. The Firefox configuration is in `manifes_ff.json`
+
 - Clone or download this repository
+- Copy everything from `manifest_ff.json` into `manifest.json`
 - Go to `about:debugging` (type in the address bar)
 - Click *This Firefox* > *Load Temporary Add-On*
 - Browse to the extension folder and select `manifest.json`
