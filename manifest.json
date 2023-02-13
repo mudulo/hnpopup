@@ -1,6 +1,6 @@
 {
   "name": "Hacker News User Link Pop-up",
-  "version": "2.0",
+  "version": "3.0",
   "description": "Hover on a Hacker News user link to see their profile",
   "manifest_version": 3,
   "host_permissions": [
