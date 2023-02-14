@@ -10,10 +10,10 @@ You can quickly see a user's about, karma and sign up date.
 ## Installation
 
 ### Chrome
-`https://chrome.google.com/webstore/detail/hacker-news-user-link-pop/clfaigfmebhcgofincgbmofoiomlhbfo`
+[https://chrome.google.com/webstore/detail/hacker-news-user-link-pop/clfaigfmebhcgofincgbmofoiomlhbfo](https://chrome.google.com/webstore/detail/hacker-news-user-link-pop/clfaigfmebhcgofincgbmofoiomlhbfo)
 
 ### Firefox
-`https://addons.mozilla.org/en-US/firefox/addon/hn-pop-up/`
+[https://addons.mozilla.org/en-US/firefox/addon/hn-pop-up/](https://addons.mozilla.org/en-US/firefox/addon/hn-pop-up/)
 
 ## Debugging / Local Installation
 
