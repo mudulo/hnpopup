@@ -9,6 +9,14 @@ You can quickly see a user's about, karma and sign up date.
 
 ## Installation
 
+### Chrome
+`https://chrome.google.com/webstore/detail/hacker-news-user-link-pop/clfaigfmebhcgofincgbmofoiomlhbfo`
+
+### Firefox
+`https://addons.mozilla.org/en-US/firefox/addon/hn-pop-up/`
+
+## Debugging / Local Installation
+
 ### Firefox
 
 For some reason, Firefox does not whitelist the domain `https://hacker-news.firebaseio.com/` under the `host_permissions` key in the manifest, when we use manifest v3. For that reason, we use the manifest v2 for FireFox. The Firefox configuration is in `manifes_ff.json`
